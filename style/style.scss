@@ -104,7 +104,17 @@ a:visited {
                 border: none;
             }
 
-            &_btn:active {
+            &_btn:active, &_btn:hover {
+                height: 41px;
+                padding-left: 30px;
+                padding-right: 30px;
+                border-radius: 10px;
+                color: #fff;
+                background-color: #292F36;
+                border: none;
+            }
+
+            &_btn:focus {
                 height: 41px;
                 padding-left: 30px;
                 padding-right: 30px;
@@ -191,9 +201,9 @@ a:visited {
                 color: #CDA274;  
                  
                 .quate {
-                    transform:rotateX();
+                    transform:scale(-1, -1);
                     position: absolute;
-                    top: 30px;
+                    top: -68px;
                 } 
                 
                 .quate-txt {
